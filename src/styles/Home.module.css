@@ -1,0 +1,146 @@
+.main {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.header {
+  padding: 80px 20px 40px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 24px;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+.hero {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.cta {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  text-align: center;
+  color: #333;
+}
+
+.cta h2 {
+  color: #667eea;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.link {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #667eea;
+  color: white;
+  border-radius: 5px;
+  transition: background 0.3s;
+  font-weight: 600;
+}
+
+.link:hover {
+  background: #764ba2;
+  text-decoration: none;
+}
+
+.keywords {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.keywords h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.keywords ul {
+  list-style: none;
+  padding: 0;
+}
+
+.keywords li {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+}
+
+.keywords li:last-child {
+  border-bottom: none;
+}
+
+.footer {
+  text-align: center;
+  padding: 40px 20px;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  margin-top: 60px;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .hero,
+  .keywords {
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  .nav {
+    gap: 10px;
+  }
+
+  .link {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+}
